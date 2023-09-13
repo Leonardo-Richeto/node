@@ -1,4 +1,4 @@
-POST http://127.0.0.1:3333/videos
+POST https://node-nint.onrender.com/videos
 Content-Type: application/json
 
 {
@@ -9,11 +9,11 @@ Content-Type: application/json
 
 ###
 
-GET http://127.0.0.1:3333/videos
+GET https://node-nint.onrender.com/videos
 
 ###
 
-PUT http://127.0.0.1:3333/videos/afb04171-fc9a-41cc-ba83-cabc82c90c3b
+PUT https://node-nint.onrender.com/videos/afb04171-fc9a-41cc-ba83-cabc82c90c3b
 Content-Type: application/json
 
 {
@@ -24,4 +24,4 @@ Content-Type: application/json
 
 ###
 
-DELETE http://127.0.0.1:3333/videos/
+DELETE https://node-nint.onrender.com/videos/a79b90d6-a519-4451-b533-4aadc6501f51
