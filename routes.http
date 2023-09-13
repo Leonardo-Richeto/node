@@ -1,0 +1,27 @@
+POST http://127.0.0.1:3333/videos
+Content-Type: application/json
+
+{
+    "title": "Video a ser apagado",
+    "description": "Esse video vai ser apagado",
+    "duration": 150
+}
+
+###
+
+GET http://127.0.0.1:3333/videos
+
+###
+
+PUT http://127.0.0.1:3333/videos/afb04171-fc9a-41cc-ba83-cabc82c90c3b
+Content-Type: application/json
+
+{
+    "title": "Video apagado",
+    "description": "Esse video vai ser apagado",
+    "duration": 220
+}
+
+###
+
+DELETE http://127.0.0.1:3333/videos/
